@@ -19,6 +19,7 @@ body {
   flex-direction: column;
   font-family: "Roboto", sans-serif;
   gap: 1.5em;
+  justify-content: center;
   margin: auto;
   min-height: 100vh;
   width: 80%;
@@ -91,30 +92,18 @@ main {
 }
 
 .semDobra {
-  background-image: linear-gradient(
-    135deg,
-    var(--dark-brown) 25px,
-    transparent 25px
-  );
+  background-image: linear-gradient(    135deg,    var(--dark-brown) 25px,    transparent 25px  );
 }
 
 .comDobra {
-  background-image: linear-gradient(
-    135deg,
-    var(--dark-brown) 25px,
-    var(--bright-blue) 25px
-  );
+  background-image: linear-gradient(    135deg,    var(--dark-brown) 25px,    var(--bright-blue) 25px  );
   background-repeat: no-repeat;
   background-size: 36px 36px;
   position: relative;
 }
 
 .comDobra::before {
-  background-image: linear-gradient(
-    135deg,
-    transparent 25px,
-    var(--bright-blue) 25px
-  );
+  background-image: linear-gradient(    135deg,    transparent 25px,    var(--bright-blue) 25px  );
   content: "";
   filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.6));
   height: 36px;
